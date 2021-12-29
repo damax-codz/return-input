@@ -1,0 +1,50 @@
+h2{
+    text-transform:uppercase;
+    font-weight: bolder;
+    font-family: 'Fruktur', cursive;
+    font-size: 30px;
+}
+.full{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.fulla{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 50px;
+}
+#text{
+   width: 200px;
+   height: 30px;
+   border-radius: 7px;
+   border-color: white;
+}
+#text:hover{
+   box-shadow: 1px 1px 3px 3px rgb(137, 204, 246);
+}
+button{
+   width: 90px;
+   height: 30px;
+   border-radius: 3px;
+   font-size: 15px
+}
+#resu{
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 20px;
+   word-wrap: break-word;
+   width:270px ;
+   align-self: center; 
+
+}
+#erro{
+   text-transform: capitalize;
+   font-weight: bolder;
+   font-size: 20px;
+}
